@@ -1,0 +1,25 @@
+.card-grid {
+  grid-column-start: 2;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+}
+.card {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: var(--bg-first-color) solid 1px;
+}
+.card-detail,
+.price {
+  padding: 0px 5px;
+}
+.image-one {
+  width: 100%;
+  height: auto;
+}
