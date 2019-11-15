@@ -30,7 +30,7 @@
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(var(--bg-third-color), var(--bg-first-opacity));
 }
 
 .text {

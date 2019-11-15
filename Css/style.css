@@ -2,6 +2,8 @@
   --bg-first-color: rgb(0, 0, 0);
   --bg-second-color: rgb(124, 103, 103);
   --bg-third-color: 0, 0, 0;
+  --bg-forth-color: rgb(255, 255, 255);
+  --bg-fifth-color: rgb(255, 0, 0);
   --bg-first-gradient: 0.3;
   --bg-second-gradient: 0.4;
   --bg-first-opacity: 0.5;
@@ -49,5 +51,8 @@ body {
 @media (max-width: 590px) {
   .navbar {
     flex-direction: column;
+  }
+  .wrapper {
+    width: 100%;
   }
 }
